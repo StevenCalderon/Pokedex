@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/pokedex.css">
+  </head>
+  <body>
+    <header>
+      <h1>POKEDEX</h1>
+    </header>
+
+    <main>
+      <div class="content-pokedex">
+        <div class="shearcher">
+          <input type="text" class="inpPokeName" id="inpPokeName" />
+          <button class="btnSearch" id="btnSearch">Buscar</button>
+        </div>
+
+        <div class="results">
+            <h3 id="namePokemon"> Hola Entrenador</h3>
+          <img
+            src="./img//defaultpokemon.png"
+            alt="Pokemon"
+            id="pokeImg"
+            height="200px"
+          />
+
+          <div class="statistics">
+            <label for="inpHp">HP <input id="inpHp" type="text" disabled> </label>
+            <label for="inpAtk">Ataque <input id="inpAtk" type="text" disabled> </label>
+            <label for="inpDef">Defensa <input id="inpDef" type="text" disabled> </label>
+          </div>
+
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <footer>
+    <script src="./js/js_pokedex.js"></script>
+  </footer>
+</html>
